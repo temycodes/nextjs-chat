@@ -1,0 +1,40 @@
+.form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width:70%;
+}
+
+.header {
+  text-align: center;
+  color: white;
+  margin-top: 50px;
+}
+
+.hr {
+  color: white;
+  width: 70%;
+}
+
+.entry {
+  background-color: rgb(17 24 39);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 100vh;
+  width: 100%;
+  font-family: 'TruenoRegular'
+}
+
+.msgs {
+  /* background-color: rgb(17 24 39); */
+  width: 100%;
+}
+
+.msgSection {
+  /* background-color: rgb(17 24 39); */
+  /* width: 100%;
+  display: flex; */
+  margin-top: 75px;
+}

@@ -1,0 +1,40 @@
+.form {
+    height: 7vh;
+    width:100%;
+    display:flex;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.formInput {
+    width: 80%;
+    padding:10px;
+    outline:none;
+    font-size: 17px;
+} 
+
+.btn {
+    width:20%;
+    background-image: url('../../image/test.jpg');
+    background-size: cover;
+    /* background: #DB1E3D; */
+    border: none;
+    color: white;
+    font-weight: bolder;
+    font-size:1.5rem;
+}
+
+@media screen and (max-width:600px) {
+    .btn {
+        font-size: 0.9rem;
+    }
+}
+.btn:hover {
+    background-image: url('../../image/test2.jpg');
+    background-size: cover;
+    -moz-transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}

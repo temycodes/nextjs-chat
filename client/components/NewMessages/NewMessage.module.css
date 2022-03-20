@@ -1,0 +1,53 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin: auto;
+  border: 2px solid;
+  overflow: hidden;
+}
+
+@media screen and (max-width:600px) {
+  .form {
+    width: 90%;
+  }
+}
+
+
+.textarea {
+  width: 100%;
+  height: 20vh;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  outline: none;
+  border: none;
+  font-size: 23px;
+}
+
+.btn {
+  padding: 5px;
+  background: #DB1E3D;
+  color: white;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: 2px solid black;
+  width: 100%;
+  cursor: pointer;
+}
+
+.btn > p {
+  margin-right: 16px;
+  height: 30px;
+  font-size: 20px;
+  font-weight: 900;
+  color: black;
+}
+
+.btnImg {
+  width: 30px;
+  display: block;
+}
